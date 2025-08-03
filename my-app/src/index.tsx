@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
-import Counter from "./Counter/Counter";
+// import App from "./App";
+// import Counter from "./Counter/Counter";
+import { Quiz } from "./Quiz/Quiz";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -11,7 +12,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <Quiz />
   </React.StrictMode>,
 );
 
