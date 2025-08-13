@@ -4,8 +4,9 @@ import "./index.css";
 // import App from "./App";
 // import Counter from "./Counter/Counter";
 // import { Quiz } from "./Quiz/Quiz";
-import { Todolist } from "./Todolist/Todolist";
+// import { Todolist } from "./Todolist/Todolist";
 import reportWebVitals from "./reportWebVitals";
+import Game from "./TicTacToe/Game";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -15,7 +16,8 @@ root.render(
     {/* <App /> */}
     {/* <Counter /> */}
     {/* <Quiz /> */}
-    <Todolist />
+    {/* <Todolist /> */}
+    <Game />
   </React.StrictMode>,
 );
 
